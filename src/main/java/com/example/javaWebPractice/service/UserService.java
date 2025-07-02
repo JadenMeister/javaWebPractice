@@ -36,6 +36,8 @@ public class UserService {
         user.setRole("USER"); // 기본 역할 설정
 
 
+        return userRepository.save(user);
+
 
 
     }
